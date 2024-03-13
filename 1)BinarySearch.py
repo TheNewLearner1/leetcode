@@ -10,7 +10,7 @@ def binarySearch(nums, target):
             left = mid + 1
     return -1
 if __name__ == '__main__':
-    nums = [2, 5, 6, 8, 9, 10]
+    nums = list(range(1, 100))
     target = 5
     index = binarySearch(nums, target)
     if index != -1:
